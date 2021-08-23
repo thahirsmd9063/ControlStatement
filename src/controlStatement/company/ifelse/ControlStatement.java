@@ -11,7 +11,17 @@ public class ControlStatement {
 		else {
 			System.out.println(value8);
 		}
+		int value9 = 100 ;
+		switch(value9) {
+		case 20: System.out.println("20");
+		break;
+		case 30 :System.out.println("30");
+		break;
+		case 40 :System.out.println("40");
+		break;
+		default :System.out.println("no value match");
 		
+		}
 	}
 
 }
