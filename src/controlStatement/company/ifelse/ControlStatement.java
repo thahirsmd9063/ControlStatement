@@ -24,6 +24,12 @@ public class ControlStatement {
 		for(int i=1; i<=75; i++) {
 			System.out.println(i+" ");
 		}
+		int i=1;
+		while( i<=80){
+			System.out.println(i);
+			i++;
+		}
+		
 	}
 
 }
