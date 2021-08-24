@@ -4,12 +4,12 @@ public class ControlStatement {
 	public static void main(String []args) {
 		System.out.println("welcome control system");
 		int value7 = 250;
-		int value8 = 350;
-		if(value7 >value8) {
-			System.out.println(value7);
+		int value8 = 250; 
+		if(value7 >=value8) {
+			System.out.println("value7");
 		}
 		else {
-			System.out.println(value8);
+			System.out.println("value8");
 		}
 		int value9 = 100 ;
 		switch(value9) {
@@ -20,7 +20,9 @@ public class ControlStatement {
 		case 40 :System.out.println("40");
 		break;
 		default :System.out.println("no value match");
-		
+		}
+		for(int i=1; i<=75; i++) {
+			System.out.println(i+" ");
 		}
 	}
 
