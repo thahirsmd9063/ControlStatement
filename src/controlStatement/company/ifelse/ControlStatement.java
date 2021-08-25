@@ -30,13 +30,17 @@ public class ControlStatement {
 			i++;
 		}
 		int k=11;    
-	    do{    
+	    do{
 	        System.out.println(k);    
 	    k++;    
 	    } while(k<=15);
 	    
+	    for(int f=1;f<=10;f++){
+	    	if(f==6){
+	    	break;
+	    	}
+	    	System.out.println(f);   
 	}  
-
+	}
 }
-
 
