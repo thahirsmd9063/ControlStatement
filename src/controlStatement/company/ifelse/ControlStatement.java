@@ -40,7 +40,13 @@ public class ControlStatement {
 	    	break;
 	    	}
 	    	System.out.println(f);   
-	}  
+	}
+	    for(int j=1;j<10;j++) {
+	    	if(j==3){
+	         continue;
+	    	}
+	    	System.out.println(j);
+	    }
 	}
 }
 
