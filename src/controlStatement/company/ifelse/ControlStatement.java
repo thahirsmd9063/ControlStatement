@@ -21,15 +21,22 @@ public class ControlStatement {
 		break;
 		default :System.out.println("no value match");
 		}
-		for(int i=1; i<=75; i++) {
+		for(int i=1; i<=5; i++) {
 			System.out.println(i+" ");
 		}
-		int i=1;
-		while( i<=80){
+		int i=6;
+		while( i<=10){
 			System.out.println(i);
 			i++;
 		}
-		
-	}
+		int k=11;    
+	    do{    
+	        System.out.println(k);    
+	    k++;    
+	    } while(k<=15);
+	    
+	}  
 
 }
+
+
